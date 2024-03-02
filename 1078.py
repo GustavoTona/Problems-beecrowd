@@ -1,0 +1,12 @@
+N = int(input())
+
+print(f"1 x {N} = {N*1}")
+print(f"2 x {N} = {N*2}")
+print(f"3 x {N} = {N*3}")
+print(f"4 x {N} = {N*4}")
+print(f"5 x {N} = {N*5}")
+print(f"6 x {N} = {N*6}")
+print(f"7 x {N} = {N*7}")
+print(f"8 x {N} = {N*8}")
+print(f"9 x {N} = {N*9}")
+print(f"10 x {N} = {N*10}")
