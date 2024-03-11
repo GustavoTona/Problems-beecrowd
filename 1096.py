@@ -1,10 +1,6 @@
-
-# Valores iniciais para padronizar o I e J
-I = 1
-J = 7
-
-# While para enquanto o J for maior ou igual a 0 
-while J >= 0:
-    print(f'I={I} J={J}')
-    I += 3 #incrementando  ovalor
-    J += 1 # descrementando o valor 
+# Loop for exterior para i variando de 1 a 9, com incremento de 2
+for i in range(1, 10, 2):
+        # Loop interior para j variando de 7 a 5, com decremento de 1
+        for j in range(7, 4, -1):
+            # Imprime a string formatada com os valores de i e j
+            print("I={} J={}".format(i, j))
